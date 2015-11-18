@@ -1,0 +1,61 @@
+<form name="myForm">
+<table>
+<tbody>
+   <tr>
+  <td>Enter First Number.
+  </td>
+    <td>
+    <input type="text" name="data1" data-ng-model="data1" />
+  </td>
+  </tr>
+    <tr>
+      <td>Enter Second Number.
+  </td>
+    <td>
+     <input type="text" name="data2"  data-ng-model="data2"/>
+  </td>
+  </tr>
+    <tr>
+     <td>
+     </td>
+  
+    <td>
+    <a href="#/substract/{{data1}}/{{data2}}" >subtract </a> 
+    &nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#/add/{{data1}}/{{data2}}" >add </a> 
+      
+          <a href="#/substract/{{data1}}/{{data2}}" >subtract </a> 
+    &nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="#/addRecord" >add Record</a> 
+      
+  </td>
+  </tr>
+  <tr>
+  <td>Result:
+  </td>
+  <td>
+     <input type="text" name="result" data-ng-model="result" />{{data1}} {{data2}}
+     
+  </td>
+  </tr> 
+  
+  <tr>
+  <td colspan="2">
+  <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>     
+    </table>
+  </td>
+  </tr>
+</tbody>
+</table>
+</form>
